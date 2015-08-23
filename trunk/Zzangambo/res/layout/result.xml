@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/imagemain" android:gravity="center_vertical|center_horizontal">
+	
+		<TextView  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/result_title_str" 
+    	android:textColor="@color/solid_block" android:gravity="center_vertical|center_horizontal" android:textSize="32sp" android:layout_margin="12dp"/>
+ 
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="horizontal"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content">
+			<TextView  
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content" 
+	    	android:text="@string/result_me_str"
+	    	android:textColor="@color/solid_block" android:textSize="24sp" android:width="100dp" android:gravity="center_vertical|center_horizontal"/>
+
+			<TextView  
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content" 
+	    	android:text="@string/result_cpu_str"
+	    	android:textColor="@color/solid_block" android:textSize="24dp" android:width="100dp" android:gravity="center_vertical|center_horizontal"/>
+    	</LinearLayout>
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="horizontal"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content">
+			<TextView
+			android:id="@+id/result_me_tv"  
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/result_me_str"
+	    	android:textColor="@color/solid_block"
+	    	android:textSize="24dp" android:width="100dp" android:gravity="center_vertical|center_horizontal"/>
+
+			<TextView  
+			android:id="@+id/result_cpu_tv"
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content" 
+	    	android:text="@string/result_cpu_str"
+	    	android:textColor="@color/solid_block"
+	    	android:textSize="24dp" android:width="100dp" android:gravity="center_vertical|center_horizontal"/>
+    	</LinearLayout>
+
+
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal">
+			<Button android:text="@string/result_retry_str" 
+				android:id="@+id/result_retry" 
+				android:layout_height="wrap_content" android:layout_width="100dp"></Button>
+			<Button android:text="@string/result_exit_str" 
+				android:id="@+id/result_exit" 
+				android:layout_height="wrap_content" android:layout_width="wrap_content" android:width="100dp" android:layout_margin="20dp"></Button>
+    	</LinearLayout>
+
+    	
+</LinearLayout>

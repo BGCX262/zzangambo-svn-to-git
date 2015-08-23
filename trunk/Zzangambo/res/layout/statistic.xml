@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/screen"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingBottom="4dip"
+        android:gravity="center_horizontal"
+        android:text="@string/statistic" 
+        android:textSize="40dp"/>
+
+    <LinearLayout android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:baselineAligned="false" 
+        android:gravity="center_horizontal">
+
+		<TextView 
+			android:text="@string/statistic_total" 
+			android:id="@+id/TextView01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:singleLine="true" 
+			android:textSize="30dip">
+		</TextView>
+
+		<TextView 
+			android:id="@+id/TextTotalRound" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:textSize="30dip" 
+			android:text="xx" 
+			android:typeface="serif" 
+			android:width="50dip" 
+			android:gravity="right">
+		</TextView>
+		<TextView 
+			android:id="@+id/TextView02" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/statistic_round" 
+			android:textSize="30dip">
+		</TextView>
+		
+		<TextView 
+			android:text="xx" 
+			android:id="@+id/TextTotalWin" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:textSize="30dip" 
+			android:typeface="serif" 
+			android:width="50dip" 
+			android:gravity="right">
+		</TextView>
+		<TextView 
+			android:id="@+id/TextView03" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/statistic_win" 
+			android:textSize="30dip">
+		</TextView>
+
+	</LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:baselineAligned="false" 
+        android:gravity="bottom|left">
+
+        <ImageView
+            android:src="@drawable/scissor"
+            android:adjustViewBounds="true"
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content" 
+            android:layout_gravity="center" 
+            android:scaleType="centerInside" 
+            android:maxHeight="60px" 
+            android:maxWidth="60px">
+		</ImageView>
+
+<!--	
+		<TextView 
+			android:text="@string/statistic_scissor" 
+			android:id="@+id/TextView04" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:singleLine="true" 
+			android:autoText="true">
+		</TextView>
+-->
+		<TextView 
+			android:text="xx" 
+			android:id="@+id/TextScissorWin" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:textSize="30dip" 
+			android:typeface="serif" 
+			android:width="50dip" 
+			android:gravity="right">
+		</TextView>
+		<TextView 
+			android:id="@+id/TextView05" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/statistic_win" 
+			android:textSize="30dip">
+		</TextView>
+		
+		<TextView 
+			android:text="xx" 
+			android:id="@+id/TextScissorLose" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:textSize="30dip" 
+			android:typeface="serif" 
+			android:width="50dip" 
+			android:gravity="right">
+		</TextView>
+		<TextView 
+			android:id="@+id/TextView06" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/statistic_lose" 
+			android:textSize="30dip">
+		</TextView>
+
+	</LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:baselineAligned="false" 
+        android:gravity="bottom|left">
+
+        <ImageView
+            android:src="@drawable/rock"
+            android:adjustViewBounds="true"
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content" 
+            android:layout_gravity="center" 
+            android:scaleType="centerInside" 
+            android:maxHeight="60px" 
+            android:maxWidth="60px">
+		</ImageView>
+
+<!--
+ 		<TextView 
+			android:text="@string/statistic_rock" 
+			android:id="@+id/TextView07" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:singleLine="true" 
+			android:autoText="true">
+		</TextView>
+-->
+
+		<TextView 
+			android:text="xx" 
+			android:id="@+id/TextRockWin" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:typeface="serif" 
+			android:width="50dip" 
+			android:textSize="30dip" 
+			android:gravity="right">
+		</TextView>
+		<TextView 
+			android:id="@+id/TextView08" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/statistic_win" 
+			android:textSize="30dip">
+		</TextView>
+		
+		<TextView 
+			android:text="xx" 
+			android:id="@+id/TextRockLose" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:textSize="30dip" 
+			android:typeface="serif" 
+			android:width="50dip" 
+			android:gravity="right">
+		</TextView>
+		<TextView 
+			android:id="@+id/TextRockLose" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/statistic_lose" 
+			android:textSize="30dip">
+		</TextView>
+
+	</LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:baselineAligned="false" 
+        android:gravity="bottom|left">
+
+        <ImageView
+            android:src="@drawable/paper"
+            android:adjustViewBounds="true"
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content" 
+            android:layout_gravity="center" 
+            android:scaleType="centerInside" 
+            android:maxHeight="60px" 
+            android:maxWidth="60px">
+		</ImageView>
+
+<!-- 
+		<TextView 
+			android:text="@string/statistic_paper" 
+			android:id="@+id/TextView10" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:singleLine="true" 
+			android:autoText="true">
+		</TextView>
+-->
+		<TextView 
+			android:text="xx" 
+			android:id="@+id/TextPaperWin" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:typeface="serif" 
+			android:width="50dip" 
+			android:textSize="30dip" 
+			android:gravity="right">
+		</TextView>
+		<TextView 
+			android:id="@+id/TextView11" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/statistic_win" 
+			android:textSize="30dip">
+		</TextView>
+		
+		<TextView 
+			android:text="xx" 
+			android:id="@+id/TextPaperLose" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:textSize="30dip" 
+			android:typeface="serif" 
+			android:width="50dip" 
+			android:gravity="right">
+		</TextView>
+		<TextView 
+			android:id="@+id/TextView12" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/statistic_lose" 
+			android:textSize="30dip">
+		</TextView>
+
+	</LinearLayout>
+    
+    <LinearLayout android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:gravity="center_horizontal">
+
+	<Button 
+		android:text="@string/statistic_init" 
+		android:id="@+id/Button_init" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</Button>
+	<Button 
+		android:text="@string/statistic_main" 
+		android:id="@+id/Button_main" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</Button>
+
+	</LinearLayout>
+
+</LinearLayout>
+

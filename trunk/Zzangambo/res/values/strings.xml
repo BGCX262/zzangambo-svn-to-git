@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Welcom to Zzangambo!!!</string>
+    <string name="app_name">zzangambo</string>
+
+	<!--result activity -->
+    <string name="result_retry_str">Retry</string>
+    <string name="result_exit_str">Exit</string>
+    <string name="result_title_str">Game result</string>
+	<string name="result_me_str">Me</string>    
+	<string name="result_cpu_str">CPU</string>
+	
+	<!-- statistic activity -->
+	<string name="statistic">통  계</string>
+	<string name="statistic_init">Init</string>
+	<string name="statistic_main">Main</string>
+	<string name="statistic_total">Total</string>
+	<string name="statistic_round">[전]</string>
+	<string name="statistic_win">[승]</string>
+	<string name="statistic_lose">[패]</string>
+	<string name="statistic_scissor">[가위]</string>
+	<string name="statistic_rock">[바위]</string>
+	<string name="statistic_paper">[ 보 ]</string>
+
+
+</resources>
